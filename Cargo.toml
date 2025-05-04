@@ -1,0 +1,10 @@
+[package]
+name = "steam-audio-codec"
+description = "parser for steams voice packets"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74.0"
+
+[dependencies]
+opus = "0.3.0"
+thiserror = "2.0.12"
