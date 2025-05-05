@@ -4,7 +4,14 @@ description = "parser for steams voice packets"
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.74.0"
+license = "EUPL-1.2"
+repository = "https://github.com/demostf/steam-audio-codec"
 
 [dependencies]
 opus = "0.3.0"
 thiserror = "2.0.12"
+
+[dev-dependencies]
+tf-demo-parser = "0.6.0"
+hound = "3.5.1"
+main_error = "0.1.2"
